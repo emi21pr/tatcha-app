@@ -35,7 +35,7 @@ function Social() {
           </span>
           <span className="text-red-700 text-3xl sm:text-4xl font-bold font-playfair italic">
             {" "}
-            Aquí te contamos cuatro.
+            Aquí te las contamos.
           </span>
         </div>
       </div>
