@@ -70,7 +70,7 @@ export default function Navbar() {
   return (
     <>
       <nav
-        className={`sticky top-0 z-50 w-full flex items-center justify-between h-auto px-6 sm:px-12 pb-5 sm:pt-5 pt-8 text-base font-light bg-white/90 transition-transform duration-300 ease-in-out ${
+        className={`sticky top-0 z-50 w-full flex items-center justify-between backdrop-blur-sm h-auto px-6 sm:px-12 pb-5 sm:pt-5 pt-8 text-base font-light bg-white/90 transition-transform duration-300 ease-in-out ${
           visible ? "translate-y-0" : "-translate-y-full"
         }`}
       >
