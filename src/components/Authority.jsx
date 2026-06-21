@@ -25,12 +25,12 @@ function Authority() {
           <div className="text-zinc-900 ">
           Nacido en San Francisco.{" "}
         </div>
-        <div className="text-red-700 italic">Hecho en Kyoto.</div>
+        <div className="text-red-700 italic">Hecho en Kioto.</div>
         </div>
         
         <div className="text-zinc-900 text-sm sm:text-base font-light max-w-2xl">
           Tatcha nace de manuscritos antiguos de belleza de geishas, con
-          ingredientes de <span className="font-bold">Kyoto</span> y fórmulas modernas
+          ingredientes de <span className="font-bold">Kioto</span> y fórmulas modernas
           desarrolladas con <span className="font-bold">biotecnología</span>, libres de sulfatos y
           parabenos.
         </div>
