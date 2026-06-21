@@ -4,7 +4,7 @@ import bonus from "/images/bonus.png";
 const bonuses = [
   {
     title: "Envío gratis + muestras",
-    desc: "En todo pedido. Descubres otros productos Tatcha sin riesgo. Valor percibido ~$10.",
+    desc: "En todo pedido. Descubres otros productos Tatcha sin riesgo.",
     dark: false,
   },
   {

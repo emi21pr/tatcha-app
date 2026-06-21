@@ -8,9 +8,15 @@ function Footer() {
       label: "Instagram",
       href: "https://www.instagram.com/tatcha?igsh=b2tqaGgyMG4wNzc2",
     },
-    { label: "Tiktok", href: "https://www.tiktok.com/@tatcha?_r=1&_t=ZS-97Jvy1ZLA8I" },
+    {
+      label: "Tiktok",
+      href: "https://www.tiktok.com/@tatcha?_r=1&_t=ZS-97Jvy1ZLA8I",
+    },
     { label: "Pinterest", href: "https://pin.it/5TsUbsf99" },
-    { label: "Youtube", href: "https://youtube.com/@tatchabeauty?si=wDqJ3uOjPqGoyKtB" },
+    {
+      label: "Youtube",
+      href: "https://youtube.com/@tatchabeauty?si=wDqJ3uOjPqGoyKtB",
+    },
   ];
   const policyLinks = [
     {
@@ -18,7 +24,10 @@ function Footer() {
       href: "https://tatcha.com/pages/privacy-notice",
     },
     { label: "Términos", href: "https://tatcha.com/pages/terms-of-use" },
-    { label: "Devoluciones", href: "https://help.tatcha.com/en_us/categories/return-policies-rJNw30kxxe" },
+    {
+      label: "Devoluciones",
+      href: "https://help.tatcha.com/en_us/categories/return-policies-rJNw30kxxe",
+    },
   ];
   return (
     <div className="mt-12 self-stretch px-6 sm:px-12 py-5 relative bg-red-700 rounded-tl-[50px] rounded-tr-[50px] flex flex-col justify-center items-center gap-5 overflow-hidden">
@@ -47,7 +56,7 @@ function Footer() {
             <span className="text-white text-base sm:text-2xl font-normal">
               Si The Water Cream no cumple la promesa que te hicimos, te
               devolvemos tu dinero completo. Sin formularios complicados. Sin
-              preguntas. Solo escríbenos a customercare@tatcha.com
+              preguntas. Solo escríbenos a <a href="mailto:customercare@tatcha.com" target="_blank" className="underline hover:text-gray-100 transition duration-150 scale-50">customercare@tatcha.com</a>
             </span>
             <span className="text-white text-sm sm:text-base font-light">
               Sin preguntas. Sin condiciones.
